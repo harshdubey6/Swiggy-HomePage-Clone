@@ -40,14 +40,17 @@ Swiggy-UI-Clone/
 │── package.json
 │── README.md
 
-📦 Installation & Setup
+-- Installation & Setup
 
 Clone the repository:
 
 git clone https://github.com/yourusername/swiggy-ui-clone.git
+
 cd swiggy-ui-clone
 
-Install dependencies:
+
+--Install dependencies:
+
 
 npm install
 
@@ -57,7 +60,7 @@ npm start
 
 The app will be available at http://localhost:3000/.
 
-🌟 Contributing
+-- Contributing
 
 This project is meant for learning. If you want to contribute or improve the UI, feel free to fork and submit a pull request.
 
