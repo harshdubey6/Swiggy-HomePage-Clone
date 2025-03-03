@@ -1,12 +1,66 @@
-# React + Vite
+Swiggy UI Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A frontend UI clone of Swiggy, developed for learning purposes using React.js, Tailwind CSS, and JavaScript.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Home Page: Beautiful UI similar to Swiggy’s homepage.
 
-## Expanding the ESLint configuration
+Restaurant Listings: Display a list of restaurants with images, ratings, and cuisine types.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Search Functionality: Search for restaurants and filter them.
+
+Responsive Design: Fully optimized for mobile and desktop.
+
+Dynamic Routing: Navigate to restaurant details using React Router.
+
+Shimmer Loading Effect: Skeleton loading UI for better user experience.
+
+🛠️ Tech Stack
+
+Frontend: React.js, Tailwind CSS
+
+State Management: React Hooks (useState, useEffect)
+
+Routing: React Router
+
+API Handling: Fetch API / Axios (Mock API or Swiggy’s API if available)
+
+📂 Folder Structure
+
+Swiggy-UI-Clone/
+│── public/         # Static assets
+│── src/
+│   │── components/  # Reusable UI components
+│   │── pages/       # Page components
+│   │── utils/       # Utility functions
+│   │── App.js       # Main React component
+│   │── index.js     # Entry point
+│── .gitignore
+│── package.json
+│── README.md
+
+📦 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/yourusername/swiggy-ui-clone.git
+cd swiggy-ui-clone
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+The app will be available at http://localhost:3000/.
+
+🌟 Contributing
+
+This project is meant for learning. If you want to contribute or improve the UI, feel free to fork and submit a pull request.
+
+📜 License
+
+This project is for educational purposes only and is not affiliated with Swiggy.
